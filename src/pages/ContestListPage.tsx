@@ -21,7 +21,7 @@ function ContestListPage() {
   const [debouncedSearchValue, setDebouncedSearchValue] = useState<string>("");
   const [selectedContestType, setSelectedContestType] = useState<string>("");
   const [currentPage, setCurrentPage] = useState<number>(1);
-  const [itemsPerPage, setItemsPerPage] = useState<number>(25);
+  const [itemsPerPage, setItemsPerPage] = useState<number>(10);
 
 
   const debouncedHandleSearch = useCallback(

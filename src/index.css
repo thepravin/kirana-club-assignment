@@ -1,6 +1,5 @@
 
-
-.nav { 
+.nav{ 
   padding: 20px;
   font-size: 30px;
   font-weight: 500;
@@ -29,7 +28,7 @@ footer {
   min-height: 100vh;
 }
 
-.contest-details {
+.contest-details { 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,21 +129,20 @@ footer {
 }
 
 .go_to_contest {
-  width: 100%;
-
+  width: 50%;
   margin-top: 40px;
   margin-bottom: 20px;
-  font-size: 20px;
-  background-color: rgb(192, 236, 192);
-  color: rgb(54, 175, 54);
+  font-size: 15px;
+  background-color: rgb(236 192 224);
+  color: rgb(214 103 187);
   padding: 10px 20px;
-  border: 1px solid rgb(54, 175, 54);
-  border-radius: 5px;
+  border: 1px rgb(175 54 124);
+  border-radius: 15px;
   cursor: pointer;
 }
 
 .go_to_contest:hover {
-  background-color: rgb(153, 225, 153);
+  background-color: rgb(217, 153, 225);
   color: white;
 }
 
@@ -158,7 +156,7 @@ footer {
   transition: all 0.2s;
 }
 
-/*  */
+
 .dot-bg {
   background-color: #f9f9fd;
   opacity: 0.8;
@@ -241,7 +239,6 @@ footer {
   width: 90%;
   padding: 25px;
   font-size: 1.1rem;
-
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 6px;
 }
@@ -251,12 +248,13 @@ footer {
 }
 
 .contest-card h2 {
-  color: gray;
+  color: rgb(64, 59, 59);
 }
 
 
-.pagination {
- 
+
+
+.pagination { 
   border-radius: 8px; 
   padding: 10px; 
   font-size: large;
@@ -264,13 +262,14 @@ footer {
 
 
 .fav-heading {
-  width: 100%;
+  width: 30%;
   font-size: 1.3rem;
   font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 25px;
+  border-radius: 15px;
   background-color: lightcoral;
   color: #fff;
 }
@@ -300,6 +299,7 @@ footer {
 .textfield{
   max-width: 200px;
 }
+
 
 button {
   cursor: pointer;
