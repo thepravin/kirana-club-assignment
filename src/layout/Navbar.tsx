@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="nav">
       <div className="flex gap">       
-        <Link to="/allcontests">
+        <Link to="/">
           <Button size="large">All Contests</Button>
         </Link>
         <Link to="/favourites">

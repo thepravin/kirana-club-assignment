@@ -15,7 +15,7 @@ const App = () => {
       element: <AppLayout />,
       children: [      
         {
-          path: "/allcontests",
+          path: "/",
           element: <ContestListPage />,
         },
         {
