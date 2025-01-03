@@ -13,7 +13,7 @@ const Favourites = () => {
 
   return (
     <div className="all-contests-cards">
-      <h1 className="fav-heading">Favourites</h1>
+      <h1 className="fav-heading">🧑‍💻 Favourites</h1>
       {favorites.length > 0 ? (
         <>
           {favorites.map((fav) => (            

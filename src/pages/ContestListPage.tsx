@@ -13,6 +13,7 @@ import {
 import debounce from "lodash/debounce";
 
 import ChartComponent from "../components/ChartComponent";
+import Footer from "../layout/Footer"
 
 function ContestListPage() {
   const { data, isLoading, isError, error } = useContests();
@@ -106,7 +107,8 @@ function ContestListPage() {
   ];
 
   return (
-    <div>
+   <>
+       <div>
       <div className="graph-container">
         <ChartComponent contests={filteredContests} />
       </div>
@@ -181,6 +183,9 @@ function ContestListPage() {
         </div>
       </div>
     </div>
+
+    <Footer />
+   </>
   );
 }
 
