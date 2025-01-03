@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import { CodeforcesApiResponse, CodeforcesApiError } from "../types/codeforces";
